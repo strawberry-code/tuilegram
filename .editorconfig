@@ -1,0 +1,38 @@
+# EditorConfig — tuilegram
+# Keeps formatting consistent across editors (VS Code, GoLand, nvim, …).
+# https://editorconfig.org
+
+root = true
+
+# Default: UTF-8, LF, trailing whitespace trimmed, final newline.
+[*]
+charset = utf-8
+end_of_line = lf
+insert_final_newline = true
+trim_trailing_whitespace = true
+indent_style = space
+indent_size = 2
+
+# Go uses tabs (gofmt enforces it).
+[*.go]
+indent_style = tab
+indent_size = 4
+
+# Makefiles require tabs.
+[Makefile]
+indent_style = tab
+indent_size = 4
+
+# Markdown: preserve trailing spaces (two-space line break is meaningful).
+[*.md]
+trim_trailing_whitespace = false
+
+# TOML / YAML / JSON: 2-space indent.
+[*.{toml,yaml,yml,json}]
+indent_style = space
+indent_size = 2
+
+# Shell scripts.
+[*.sh]
+indent_style = space
+indent_size = 2

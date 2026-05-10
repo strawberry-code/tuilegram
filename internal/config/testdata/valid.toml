@@ -1,0 +1,8 @@
+[meta]
+version = 2
+
+[display]
+compact_threshold = 80
+
+[paths]
+theme = ""

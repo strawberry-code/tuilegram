@@ -1,0 +1,5 @@
+[meta]
+name = "test-partial"
+
+[colors]
+primary = "#FF00FF"

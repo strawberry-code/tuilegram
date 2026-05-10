@@ -1,0 +1,33 @@
+[meta]
+name        = "tuilegram-crush"
+author      = "tuilegram"
+version     = "2.0"
+description = "Crush-inspired dark purple-magenta minimal (Step 34 default)"
+
+[colors]
+primary            = "#C661FE"
+incoming           = "#7B61FE"
+success            = "#8FCB8F"
+warning            = "#E0B872"
+error              = "#D86B6B"
+private            = "#9580E0"
+text               = "#D4D4E0"
+text_dim           = "#6B6982"
+surface            = "#221D2E"
+border             = "#3A3450"
+search_secondary   = "#5B5582"
+search_inline_bg   = "#2A2538"
+button_fg          = "#1A1625"
+button_bg          = "#C661FE"
+button_disabled_fg = "#6B6982"
+reaction           = "#7B61FE"
+reaction_chosen    = "#C661FE"
+system_message     = "#6B6982"
+link               = "#A88FFE"
+pinned             = "#C661FE"
+forward_label      = "#7B61FE"
+sender_palette     = ["#C661FE","#A88FFE","#9580E0","#7B61FE","#8B7FB8","#A899C8","#7B6BA0","#5B5582"]
+
+[gradient]
+start = "#C661FE"
+end   = "#7B61FE"

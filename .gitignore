@@ -1,0 +1,37 @@
+# Binaries
+/tuilegram
+!cmd/tuilegram/
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test
+*.test
+*.out
+cover.html
+
+# Go workspace
+go.work
+go.work.sum
+
+# Telegram session files (CRITICAL: contain auth keys)
+*.session
+*.session.json
+session.json
+
+# Environment
+.env
+.env.*
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
