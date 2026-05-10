@@ -41,6 +41,10 @@ Active development. Implementation follows a [34-step incremental pipeline](docs
 
 **Use it.** Don't trust it with your only Telegram account yet — test with a secondary number first.
 
+## Disclosure
+
+Partially built with AI assistance. Architecture, decisions, and reviews are mine; AI helped with parts of the implementation. Full design trail (pipeline, ADRs, formal specs) under [`docs/design/`](docs/design/).
+
 ## Features
 
 **Messaging**
